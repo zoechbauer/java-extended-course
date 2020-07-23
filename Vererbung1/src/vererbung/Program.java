@@ -1,3 +1,7 @@
+package vererbung;
+
+import test.Fish;
+
 public class Program {
 
 	/**
@@ -13,6 +17,11 @@ public class Program {
 		Dog dog = new Dog();
 		dog.bark();
 		dog.sleep();
+		
+		Fish fish = new Fish();
+		fish.sleep();
+		fish.color = "weiﬂ";
+		fish.sayColor();
 
 	}
 
