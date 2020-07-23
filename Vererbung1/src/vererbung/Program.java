@@ -7,7 +7,7 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 		
-		Dog dog = new Dog();
+		Dog dog = new Dog("schwarz");
 
 		dog.sayColor();
 		

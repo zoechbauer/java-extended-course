@@ -5,8 +5,17 @@ public class Animal {
 	// properties
 	protected String name;
 	protected int age;
-	private String color = "weiﬂ";
+	private String color;
 	protected String favFood;
+	
+	//ctor
+	public Animal(String color) {
+		this.color = color;
+	}
+	
+	public Animal() {
+		
+	}
 	
 	// methods
 	protected void sleep() {
