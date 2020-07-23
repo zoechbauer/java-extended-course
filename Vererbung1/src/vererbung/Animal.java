@@ -13,10 +13,6 @@ public class Animal {
 		this.color = color;
 	}
 	
-	public Animal() {
-		
-	}
-	
 	// methods
 	protected void sleep() {
 		System.out.println("ich schlafe gerade ...");
