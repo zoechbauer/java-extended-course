@@ -7,9 +7,14 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 		
-		Dog dog = new Dog("schwarz");
-
-		dog.sayColor();
+		Dog dog = new Dog();
+		dog.move();
+		
+		Tiger tiger = new Tiger();
+		tiger.move();
+		
+		Cat cat = new Cat();
+		cat.move();
 		
 	}
 

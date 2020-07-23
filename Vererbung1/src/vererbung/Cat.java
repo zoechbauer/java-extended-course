@@ -1,7 +1,7 @@
 package vererbung;
 public class Cat extends Animal {
 
-	void purr() {
+	public void purr() {
 		System.out.println("schnurren");
 	}
 }

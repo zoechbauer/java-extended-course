@@ -1,11 +1,8 @@
 package vererbung;
 public class Dog extends Animal {
 	
-	Dog(String color) {
-		super(color);
-	}
 
-	void bark() {
+	public void bark() {
 		System.out.println("bellen");
 	}
 	

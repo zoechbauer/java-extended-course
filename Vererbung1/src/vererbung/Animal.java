@@ -8,13 +8,12 @@ public class Animal {
 	private String color;
 	protected String favFood;
 	
-	//ctor
-	public Animal(String color) {
-		this.color = color;
+	// methods
+	public void move() {
+		System.out.println("Geschwindigkeit: 10 km/h");
 	}
 	
-	// methods
-	protected void sleep() {
+	public void sleep() {
 		System.out.println("ich schlafe gerade ...");
 	}
 
@@ -26,6 +25,4 @@ public class Animal {
 		this.color = color;
 	}
 	
-	
-
 }
