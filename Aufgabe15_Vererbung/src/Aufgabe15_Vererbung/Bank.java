@@ -49,9 +49,6 @@ public class Bank {
 		System.out.println("**********************************************");
 		
 		person.setMyBank(this);
-		
-		this.createBankAccount(person);
-		this.getBankAccountBalance(person);
 	}
 	
 	private void createBankAccount(Person person) {
