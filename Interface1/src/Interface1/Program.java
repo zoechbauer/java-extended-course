@@ -9,6 +9,13 @@ public class Program {
 		 Buyable[] products = new Buyable[10];
 		 products[0] = car1;
 		 products[1] = fruit1;
+		 
+		 // test interface inheritance
+		 SupermarketProducts product = new SupermarketProducts();
+		 Fruit fruit = new Fruit();
+		 
+		 product.testMethode();
+		 fruit.testMethode();
 	}
 
 }
