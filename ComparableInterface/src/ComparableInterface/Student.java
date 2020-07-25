@@ -1,6 +1,6 @@
 package ComparableInterface;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable{
 	private String firstName;
 	private String lastName;
 	private int age;
@@ -15,7 +15,7 @@ public class Student implements Comparable<Student>{
 	
 	// methods
 	@Override
-	public int compareTo(Student o) {
+	public int compareTo(Object o) {
 		if (!(o instanceof Student)) return 0;
 
 		Student other = (Student) o;
