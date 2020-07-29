@@ -1,9 +1,9 @@
 package vererbung;
 
-public class Tiger extends Animal{
+public class Tiger extends Animal {
 
-	@Override
-	public void move() {
-		System.out.println("Geschwindigkeit: 80 km/h");
-	}
+   @Override
+   public void move() {
+      System.out.println("Geschwindigkeit: 80 km/h");
+   }
 }
